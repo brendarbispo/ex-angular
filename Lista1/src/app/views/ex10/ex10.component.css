@@ -1,0 +1,15 @@
+.pink
+{
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: rgb(255, 0, 128);
+}
+.yellow{
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: rgb(255, 208, 0);
+}
+
+

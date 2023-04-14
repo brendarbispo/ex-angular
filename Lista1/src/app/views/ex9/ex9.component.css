@@ -1,0 +1,20 @@
+.red{
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: red;
+}
+
+.yellow{
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: yellow;
+}
+
+.green{
+  height: 50px;
+  width: 50px;
+  border: solid 2px black;
+  background-color: green;
+}

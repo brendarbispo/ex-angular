@@ -1,0 +1,13 @@
+.branco{
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  color: white;
+}
+
+.preto{
+  height: 80px;
+  width: 80px;
+  background-color: rgb(248, 206, 249);
+  color: black;
+}
