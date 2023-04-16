@@ -1,0 +1,13 @@
+<!--Crie duas caixas de texto (nome e sobrenome). Quando texto for digitado nas caixas, faça com que o valor
+do nome e do sobrenome sejam exibidos numa div logo abaixo das caixas.-->
+
+<p>Digite o nome:</p>
+<input type="text" [(ngModel)]="nome">
+<p>Digite o sobrenome</p>
+<input type="text"[(ngModel)]="sobrenome">
+
+
+<div>
+  <p>O nome completo é:</p>
+  <p> {{nome}} {{sobrenome}}</p>
+</div>

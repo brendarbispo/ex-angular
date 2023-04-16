@@ -1,0 +1,10 @@
+<!--
+  Construa um componente que exiba uma caixa de texto e um botão. Quando o botão for clicado, uma
+mensagem de alerta deve ser exibida contendo o que está digitado na caixa.-->
+
+<input type="text" [(ngModel)]="texto">
+<br>
+ <button (click)="mostar(texto)">mostra texto</button>
+ <br>
+ <h4>{{textoDigitado}}</h4>
+

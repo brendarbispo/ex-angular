@@ -1,0 +1,11 @@
+<!--
+  Escolha três imagens de logomarcas. Exiba o nome das respectivas empresas num select. Faça com que, ao mudar o item selecionado no select, a imagem da logomarca respectiva apareça.
+-->
+<p>Selecione uma opcao</p>
+<select [(ngModel)]="marca">
+  <option value="nike">NIKE</option>
+  <option value="adidas">ADIDAS</option>
+  <option value="puma">PUMA</option>
+</select>
+ <br>
+<img src="assets/{{marca}}.jpg" [class]="foto">

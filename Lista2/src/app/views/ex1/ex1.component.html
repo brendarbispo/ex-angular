@@ -1,0 +1,7 @@
+<!-- Crie uma caixa de texto, onde o usuário deverá digitar uma raça de cachorro. Quando
+uma raça válida for digitada, uma imagem da mesma deverá ser exibida. Faça isso para
+pelo menos 3 raças-->
+
+<input type="text" [(ngModel)]="nome" (change)="doginhos(nome)">
+<br>
+<img src="{{nomeCachorro}}" [class]="foto">
